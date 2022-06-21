@@ -9,6 +9,7 @@ private const val TAG = "MainActivity"
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        helloTextView.text = "Hello, debugging!"
         setContentView(R.layout.activity_main)
         logging()
         division()
